@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/*
+    verde #49a09d
+    lilas: #5f2c82
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+html, body {
+    height: 100vh;
+    width:100vw;
+    background-color: #5f2c82;
+}
+main{
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+}
+
+section{
+    background-color: white;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 8px;
+}
+div#imagem{
+    margin: auto;
+}
+
+div > h1{
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    font-size: 1.5em;
+}
+
+div > p{
+    text-align: justify;
+    font: 0.9em sans-serif;
+    padding: 10px;
+}
+
+img#metal{
+    border-radius: 15px 15px 0 0;
+    height: 30vh;
+    min-width: 300px;
+    display: block;
+}
+
+section#Login{
+    width: 300px;
+    height: 500px;
+    padding-bottom: 30px;
+    display: block;
+    margin: auto;
+}
