@@ -29,8 +29,22 @@ section{
     border-radius: 15px;
     box-shadow: 1px 1px 8px;
 }
+section#Login{
+    width: 300px;
+    height: 550px;
+    padding-bottom: 30px;
+    display: block;
+    margin: auto;
+}
 div#imagem{
     margin: auto;
+}
+
+img#metal{
+    border-radius: 15px 15px 0 0;
+    height: 30vh;
+    min-width: 300px;
+    display: block;
 }
 
 div > h1{
@@ -46,17 +60,57 @@ div > p{
     padding: 10px;
 }
 
-img#metal{
-    border-radius: 15px 15px 0 0;
-    height: 30vh;
-    min-width: 300px;
-    display: block;
+.input-gorup {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 10px auto;
+    width: 90%;
+    background: #f9f9f9;
 }
 
-section#Login{
-    width: 300px;
-    height: 500px;
-    padding-bottom: 30px;
+.input-gorup i {
+    margin-right: 8px;
+    color: #5f2c82;
+}
+
+.input-gorup input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 1em;
+    background: transparent;
+}
+
+#botão {
     display: block;
-    margin: auto;
+    width: 90%;
+    margin: 15px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #49a09d;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#botão:hover {
+    background: #3b807d;
+}
+
+div#formulario > a {
+    display: block;
+    text-align: center;
+    margin-top: 8px;
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #49a09d;
+}
+
+div#formulario > a:hover {
+    text-decoration: underline;
 }
